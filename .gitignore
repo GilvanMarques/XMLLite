@@ -15,6 +15,9 @@ build/
 *.xlsx
 relatorio_nfse*.csv
 
+# XMLs de NFSe (dados fiscais) — coloque seus .xml localmente; a pasta segue no projeto
+XMLs/*.xml
+
 # Streamlit / segredos
 .streamlit/secrets.toml
 
