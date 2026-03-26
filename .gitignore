@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Saídas geradas
+*.xlsx
+relatorio_nfse*.csv
+
+# Streamlit / segredos
+.streamlit/secrets.toml
+
+# macOS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

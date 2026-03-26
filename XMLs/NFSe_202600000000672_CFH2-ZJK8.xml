@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="2.02">
+    <InfNfse Id="NFSe202600000000672_13350020000134">
+      <Numero>202600000000672</Numero>
+      <CodigoVerificacao>CFH2-ZJK8</CodigoVerificacao>
+      <DataEmissao>2026-01-22T09:46:45.203</DataEmissao>
+      <OutrasInformacoes>Chave de Acesso da NFS-e Nacional: 28003081213350020000134260000000067226011137350211\s\nISS Retido pelo Tomador.\s\nTrib. aprox. R$ 7.192,97 Federal e R$ 2.673,97 Municipal. Fonte: IBPT [1C2537]\s\n</OutrasInformacoes>
+      <ValoresNfse>
+        <BaseCalculo>53479.36</BaseCalculo>
+        <Aliquota>5</Aliquota>
+        <ValorIss>2673.97</ValorIss>
+        <ValorLiquidoNfse>41901.08</ValorLiquidoNfse>
+      </ValoresNfse>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <CpfCnpj>
+            <Cnpj>13350020000134</Cnpj>
+          </CpfCnpj>
+          <InscricaoMunicipal>16130</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>MULTSERV MANUTENCAO PREDIAL LTDA</RazaoSocial>
+        <NomeFantasia>MULTSERV FACILITIES</NomeFantasia>
+        <Endereco>
+          <Endereco>RUA FREI PAULO</Endereco>
+          <Numero>191</Numero>
+          <Bairro>S JOSE</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <Cep>49015260</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7932188345</Telefone>
+          <Email>contabil@multserv.net</Email>
+        </Contato>
+      </PrestadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+        <Uf>SE</Uf>
+      </OrgaoGerador>
+      <DeclaracaoPrestacaoServico>
+        <InfDeclaracaoPrestacaoServico>
+          <Rps Id="Rps001_13093454_13350020000134">
+            <IdentificacaoRps>
+              <Numero>13093454</Numero>
+              <Serie>001</Serie>
+              <Tipo>1</Tipo>
+            </IdentificacaoRps>
+            <DataEmissao>2026-01-22</DataEmissao>
+            <Status>1</Status>
+          </Rps>
+          <Competencia>2026-01-01</Competencia>
+          <Servico>
+            <Valores>
+              <ValorServicos>53479.36</ValorServicos>
+              <ValorPis>347.62</ValorPis>
+              <ValorCofins>1604.38</ValorCofins>
+              <ValorInss>5882.73</ValorInss>
+              <ValorIr>534.79</ValorIr>
+              <ValorCsll>534.79</ValorCsll>
+            </Valores>
+            <IssRetido>1</IssRetido>
+            <ItemListaServico>1705</ItemListaServico>
+            <CodigoCnae>7830200</CodigoCnae>
+            <CodigoTributacaoMunicipio>1705</CodigoTributacaoMunicipio>
+            <CodigoNbs>118012100</CodigoNbs>
+            <Discriminacao>VALOR REFERENTE A PRESTAÇÃO DE SERVIÇOS ESPECIALIZADO EM PINTOR INDUSTRIAL / AJUDANTE DE PINTURA / JATISTA, EM NOVEMBRO/2025 - UTE. CONFORME CONTRATO 4600003038, SCASE0003346. </Discriminacao>
+            <CodigoMunicipio>2800605</CodigoMunicipio>
+            <ExigibilidadeISS>1</ExigibilidadeISS>
+            <MunicipioIncidencia>2800605</MunicipioIncidencia>
+          </Servico>
+          <Prestador>
+            <CpfCnpj>
+              <Cnpj>13350020000134</Cnpj>
+            </CpfCnpj>
+            <InscricaoMunicipal>16130</InscricaoMunicipal>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>04423567002256</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>ENEVA S.A.</RazaoSocial>
+            <Endereco>
+              <Endereco>Rod. Cesar Franco</Endereco>
+              <Numero>SN</Numero>
+              <Bairro>Polo Industrial</Bairro>
+              <CodigoMunicipio>2800605</CodigoMunicipio>
+              <Uf>SE</Uf>
+              <CodigoPais>1058</CodigoPais>
+              <Cep>49140000</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>2137213000</Telefone>
+              <Email>gestaofiscal@eneva.com.br</Email>
+            </Contato>
+          </Tomador>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivoFiscal>2</IncentivoFiscal>
+        </InfDeclaracaoPrestacaoServico>
+      </DeclaracaoPrestacaoServico>
+      <ChaveAcesso>28003081213350020000134260000000067226011137350211</ChaveAcesso>
+      <IBSCBS>
+        <cLocalidadeIncid>2800605</cLocalidadeIncid>
+        <xLocalidadeIncid>Barra dos Coqueiros</xLocalidadeIncid>
+        <valores>
+          <vBC>50805.39</vBC>
+          <uf>
+            <pIBSUF>0.10</pIBSUF>
+            <pRedAliqUF>0.00</pRedAliqUF>
+            <pAliqEfetUF>0.00</pAliqEfetUF>
+          </uf>
+          <mun>
+            <pIBSMun>0.00</pIBSMun>
+            <pRedAliqMun>0.00</pRedAliqMun>
+            <pAliqEfetMun>0.00</pAliqEfetMun>
+          </mun>
+          <fed>
+            <pCBS>0.90</pCBS>
+            <pRedAliqCBS>0.00</pRedAliqCBS>
+            <pAliqEfetCBS>0.00</pAliqEfetCBS>
+          </fed>
+        </valores>
+        <totCIBS>
+          <vTotNF>41901.08</vTotNF>
+          <gIBS>
+            <vIBSTot>50.81</vIBSTot>
+            <gIBSUFTot>
+              <vIBSUF>50.81</vIBSUF>
+            </gIBSUFTot>
+            <gIBSMunTot>
+              <vIBSMun>0.00</vIBSMun>
+            </gIBSMunTot>
+          </gIBS>
+          <gCBS>
+            <vCBS>457.25</vCBS>
+          </gCBS>
+        </totCIBS>
+      </IBSCBS>
+    </InfNfse>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFSe202600000000672_13350020000134"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cltaaktUjDbO8HqFxO3pMtYXwH4=</DigestValue></Reference></SignedInfo><SignatureValue>K2ahJIbardijEZsn3XbENYcvmtTLWv0VfpMDFbHcPV/Ph0KKXnkT0RozQJAT7tF0Wf78JOvuwxDc7Kvao5q69P69pVL9mr1wT7vIu9Wv2ETDO/Ft+weGx6sA/RsU/GgBnykYIil/pkEhXkODCSdBlXQIm5t7kpZdbvZSE1dVw1Pec5TClfe/JW6XBSekUv8RNlEf6pC82rwix9601ZfO9dB/rRXd3/vzeiAK7ty1uuF8QT7Qj0lQ00WIUQGehgBdeewvzHZxq+gcaYxdCBFY80yHOZrAeL/9KBD1PBkwWGnlxmcpT8CllfkiIqSOjLZUEmSGnv38yikHL9/gYUs9cA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Nfse>
+</CompNfse>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="2.02">
+    <InfNfse Id="NFSe202600000000675_13350020000134">
+      <Numero>202600000000675</Numero>
+      <CodigoVerificacao>K2ER-ZS8G</CodigoVerificacao>
+      <DataEmissao>2026-01-27T09:52:52.937</DataEmissao>
+      <OutrasInformacoes>Chave de Acesso da NFS-e Nacional: 28003081213350020000134260000000067526011138534058\s\nISS Retido pelo Tomador.\s\nTrib. aprox. R$ 10.252,03 Federal e R$ 3.811,16 Municipal. Fonte: IBPT [1C2537]\s\n</OutrasInformacoes>
+      <ValoresNfse>
+        <BaseCalculo>76223.29</BaseCalculo>
+        <Aliquota>5</Aliquota>
+        <ValorIss>3811.16</ValorIss>
+        <ValorLiquidoNfse>59720.96</ValorLiquidoNfse>
+      </ValoresNfse>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <CpfCnpj>
+            <Cnpj>13350020000134</Cnpj>
+          </CpfCnpj>
+          <InscricaoMunicipal>16130</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>MULTSERV MANUTENCAO PREDIAL LTDA</RazaoSocial>
+        <NomeFantasia>MULTSERV FACILITIES</NomeFantasia>
+        <Endereco>
+          <Endereco>RUA FREI PAULO</Endereco>
+          <Numero>191</Numero>
+          <Bairro>S JOSE</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <CodigoPais>1058</CodigoPais>
+          <Cep>49015260</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7932140252</Telefone>
+          <Email>nfse@multserv.net</Email>
+        </Contato>
+      </PrestadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+        <Uf>SE</Uf>
+      </OrgaoGerador>
+      <DeclaracaoPrestacaoServico>
+        <InfDeclaracaoPrestacaoServico>
+          <Rps Id="Rps001_13093456_13350020000134">
+            <IdentificacaoRps>
+              <Numero>13093456</Numero>
+              <Serie>001</Serie>
+              <Tipo>1</Tipo>
+            </IdentificacaoRps>
+            <DataEmissao>2026-01-27</DataEmissao>
+            <Status>1</Status>
+          </Rps>
+          <Competencia>2026-01-01</Competencia>
+          <Servico>
+            <Valores>
+              <ValorServicos>76223.29</ValorServicos>
+              <ValorPis>495.45</ValorPis>
+              <ValorCofins>2286.7</ValorCofins>
+              <ValorInss>8384.56</ValorInss>
+              <ValorIr>762.23</ValorIr>
+              <ValorCsll>762.23</ValorCsll>
+            </Valores>
+            <IssRetido>1</IssRetido>
+            <ItemListaServico>0710</ItemListaServico>
+            <CodigoCnae>8121400</CodigoCnae>
+            <CodigoTributacaoMunicipio>0710</CodigoTributacaoMunicipio>
+            <Discriminacao>. PRESTACAO DE SERVICOS DE LIMPEZA, CONSERVACAO PREDIAL, JARDINAGEM E MANUTENCAO DE AREAS VERDES, NO PERIODO DE 20_12_2025 A 19_01_2026. CONFORME CONTRATO 5997, BM 31  QUITA-SE ATRAVES DE DEPOSITO BANCARIO: BRADESCO AGENCIA 3162-3 CONTA CORRENTE 7004-1  \s\nValor aprox. dos tributos de acordo com a Lei No 12.741_2012: R$ 0.00 (0.00%) Fonte: IBPT</Discriminacao>
+            <CodigoMunicipio>3513504</CodigoMunicipio>
+            <ExigibilidadeISS>1</ExigibilidadeISS>
+            <MunicipioIncidencia>3513504</MunicipioIncidencia>
+          </Servico>
+          <Prestador>
+            <CpfCnpj>
+              <Cnpj>13350020000134</Cnpj>
+            </CpfCnpj>
+            <InscricaoMunicipal>16130</InscricaoMunicipal>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>61079232000252</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>COMPANHIA BRASILEIRA DE ESTIRENO</RazaoSocial>
+            <Endereco>
+              <Endereco>AV NOVE DE ABRIL</Endereco>
+              <Numero>1296</Numero>
+              <Complemento>********</Complemento>
+              <Bairro>CENTRO</Bairro>
+              <CodigoMunicipio>3513504</CodigoMunicipio>
+              <Uf>SP</Uf>
+              <CodigoPais>1058</CodigoPais>
+              <Cep>11510001</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>1125046100</Telefone>
+              <Email>juridico@unigel.com.br</Email>
+            </Contato>
+          </Tomador>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivoFiscal>2</IncentivoFiscal>
+        </InfDeclaracaoPrestacaoServico>
+      </DeclaracaoPrestacaoServico>
+      <ChaveAcesso>28003081213350020000134260000000067526011138534058</ChaveAcesso>
+    </InfNfse>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFSe202600000000675_13350020000134"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8NwO3Npj3g1Q3WZ+PtepU47vKKE=</DigestValue></Reference></SignedInfo><SignatureValue>QjGGS7dDzAvZUtaxVFcYkHps13i6mVJCadNzorAjqDVKPiXxiOpmHbOOM/dg/rdAcUxaGtco0z1dwsI0JmY3thnzNKFIQnywd9MTwvgqTLR2UoQPB+H91lR56bdmxX4cVHVSwB4x1lYN4NMjDDb7Io+96NuTdoE5Dac/IIar4LrsXUgmRuo8WS8SlHNC+12JO3B4LiDfEWxK9PPetYmo/6T4iHWMxI2EuZD4vMWW+TBmEf5BQHev8mv7c2SfQBHn2DXeNNq/OwzArPMG5ggM493bmsCLfMXYoPUxX6GxI7Tx/7+X3Cb4TFLaZkBYi4CszIb9COv4zWpLQm3BvCesiw==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Nfse>
+</CompNfse>

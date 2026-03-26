@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="2.02">
+    <InfNfse Id="NFSe202600000000058_13350020000134">
+      <Numero>202600000000058</Numero>
+      <CodigoVerificacao>4TJC-SFL3</CodigoVerificacao>
+      <DataEmissao>2026-01-07T17:04:57.91</DataEmissao>
+      <OutrasInformacoes>Chave de Acesso da NFS-e Nacional: 28003081213350020000134260000000005826011133457629\s\nTrib. aprox. R$ 29,59 Federal e R$ 11,00 Municipal. Fonte: IBPT [1C2537]\s\n</OutrasInformacoes>
+      <ValoresNfse>
+        <BaseCalculo>220</BaseCalculo>
+        <Aliquota>5</Aliquota>
+        <ValorIss>11</ValorIss>
+        <ValorLiquidoNfse>209.77</ValorLiquidoNfse>
+      </ValoresNfse>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <CpfCnpj>
+            <Cnpj>13350020000134</Cnpj>
+          </CpfCnpj>
+          <InscricaoMunicipal>16130</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>MULTSERV MANUTENCAO PREDIAL LTDA</RazaoSocial>
+        <NomeFantasia>MULTSERV FACILITIES</NomeFantasia>
+        <Endereco>
+          <Endereco>RUA FREI PAULO</Endereco>
+          <Numero>191</Numero>
+          <Bairro>S JOSE</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <CodigoPais>1058</CodigoPais>
+          <Cep>49015260</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7932140252</Telefone>
+          <Email>nfse@multserv.net</Email>
+        </Contato>
+      </PrestadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+        <Uf>SE</Uf>
+      </OrgaoGerador>
+      <DeclaracaoPrestacaoServico>
+        <InfDeclaracaoPrestacaoServico>
+          <Rps Id="Rps001_13092838_13350020000134">
+            <IdentificacaoRps>
+              <Numero>13092838</Numero>
+              <Serie>001</Serie>
+              <Tipo>1</Tipo>
+            </IdentificacaoRps>
+            <DataEmissao>2026-01-07</DataEmissao>
+            <Status>2</Status>
+          </Rps>
+          <Competencia>2026-01-01</Competencia>
+          <Servico>
+            <Valores>
+              <ValorServicos>220</ValorServicos>
+              <ValorPis>1.43</ValorPis>
+              <ValorCofins>6.6</ValorCofins>
+              <ValorCsll>2.2</ValorCsll>
+            </Valores>
+            <IssRetido>2</IssRetido>
+            <ItemListaServico>0713</ItemListaServico>
+            <CodigoCnae>8122200</CodigoCnae>
+            <CodigoTributacaoMunicipio>0713</CodigoTributacaoMunicipio>
+            <Discriminacao>Higienizacao . VALOR REFERENTE A SERVICOS PRESTADOS DE CONTROLE DE PRAGAS EM 24_12_2025.  \s\nValor aprox. dos tributos de acordo com a Lei No 12.741_2012: R$ 0.00 (0.00%) Fonte: IBPT</Discriminacao>
+            <CodigoMunicipio>2800308</CodigoMunicipio>
+            <ExigibilidadeISS>1</ExigibilidadeISS>
+            <MunicipioIncidencia>2800308</MunicipioIncidencia>
+          </Servico>
+          <Prestador>
+            <CpfCnpj>
+              <Cnpj>13350020000134</Cnpj>
+            </CpfCnpj>
+            <InscricaoMunicipal>16130</InscricaoMunicipal>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>34375501000174</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>PARAGUACU ENGENHARIA LTDA</RazaoSocial>
+            <Endereco>
+              <Endereco>AV JURACY MAGALHAES JUNIOR</Endereco>
+              <Numero>500</Numero>
+              <Complemento>EDIF PROFISSIONAL JC</Complemento>
+              <Bairro>RIO VERMELHO</Bairro>
+              <CodigoMunicipio>2927408</CodigoMunicipio>
+              <Uf>BA</Uf>
+              <CodigoPais>1058</CodigoPais>
+              <Cep>41940060</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>00000000</Telefone>
+              <Email>gildo@paraguacuengenharia.com.br</Email>
+            </Contato>
+          </Tomador>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivoFiscal>2</IncentivoFiscal>
+        </InfDeclaracaoPrestacaoServico>
+      </DeclaracaoPrestacaoServico>
+      <ChaveAcesso>28003081213350020000134260000000005826011133457629</ChaveAcesso>
+    </InfNfse>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFSe202600000000058_13350020000134"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f/gxAXqnKmGBg0ANbdZh1QDP77Q=</DigestValue></Reference></SignedInfo><SignatureValue>ALcbf6hAnfL2YgdjHsI5A/tw/NCPiXLoG0YzKivtxDgSS6Vjkl0J5uu+452v7GLflF9MlYBDA8XLRI1JFvxF3TS88UPr1EQnY2Sd12WL6JO5mOOO5wNcy1neNW5nQWh7KDUR/I9U6tghWSEIdaZnvpURCErYE5EYXLBGSbobPKn+tZhj3vOA1AdpRN35J3Lygje/QaIpNGVWkkkl9DYtK4btMYHVkAp3Iqc3SzA0i7+ixaZaVHjH42p4bzlhPrS7FJkr+4Ej4YHpcj/YG3r37GeAR7Q1MP7kRC1FOE9PNEAyAvRsI4Y4yqEr38BYmyr925Rusvx4rXDqKTbBmspjTA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></Nfse>
+  <NfseCancelamento versao="2.02">
+    <Confirmacao Id="ConfCanc202600000000058_13350020000134">
+      <Pedido>
+        <InfPedidoCancelamento>
+          <IdentificacaoNfse>
+            <Numero>202600000000058</Numero>
+            <CpfCnpj>
+              <Cnpj>13350020000134</Cnpj>
+            </CpfCnpj>
+            <InscricaoMunicipal>16130</InscricaoMunicipal>
+            <CodigoMunicipio>2800308</CodigoMunicipio>
+          </IdentificacaoNfse>
+        </InfPedidoCancelamento>
+      </Pedido>
+      <DataHora>2026-01-12T13:45:19.657</DataHora>
+    </Confirmacao>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#ConfCanc202600000000058_13350020000134"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>fjH+vCyCGwAn/6Zfw1j+ny1K1wg=</DigestValue></Reference></SignedInfo><SignatureValue>JuMS2EsVcjymobu49n3H3D0eHdUeFOcwtNMrDvTPGg8RnYnw66q1j5G25iMARV2p3d3rIXIzUEWGuCkFHRcNwVqW/GgiyMszlXfM9tVemVsOuLH1sBq/RHdD1XxonBOhn/Vbpitstws8hl0sdsD9CPULAfZGwtPdnQuxMonncZnAA9ihOr+s5YO/sC1kq60CGFjOrYn7KgsTmjD/wsAxMaRpGtgcRbcT5+kwrlDQFnkodVoEgAvJItbtAstMZWoh1XVG2Ssro3vcI4ICk6A+F6c+jzQIdBpRpE3nJslxwpgtfZQb/rzG5y01wHdGE1pNvUjbZPWmVaomZ32U5lP/Xg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NfseCancelamento>
+</CompNfse>
