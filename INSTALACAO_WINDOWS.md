@@ -4,6 +4,26 @@ Passo a passo para rodar o projeto em um PC com Windows 10 ou 11.
 
 ---
 
+## Modo rápido (arquivos .bat)
+
+Depois de instalar o **Python** com a opção **Add to PATH** (passo 1 abaixo):
+
+1. Copie ou clone o projeto para uma pasta no Windows (por exemplo `Documentos\XMLLite`).
+2. **Duplo clique em `instalar.bat`** — cria a pasta `venv`, atualiza o `pip` e instala o `requirements.txt` (só precisa rodar de novo se mudar dependências).
+3. Coloque seus arquivos `.xml` na pasta **`XMLs`** (crie a pasta se não existir).
+4. **Duplo clique em `executar.bat`** — abre o painel Streamlit no navegador (`http://localhost:8501`).
+
+Arquivos opcionais:
+
+| Arquivo | Função |
+|--------|--------|
+| `executar.bat` | Painel web (Streamlit) |
+| `gerar_planilha.bat` | Gera `relatorio_nfse.xlsx` com os XML da pasta `XMLs` (sem abrir o navegador) |
+
+**Observação:** `.bat` não é um `.exe`; o Windows executa assim mesmo com duplo clique. Se o antivírus perguntar, confirme que é o seu projeto.
+
+---
+
 ## 1. Instalar o Python
 
 1. Acesse [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) e baixe o instalador **Python 3.10 ou mais novo** (recomendado: 3.11 ou 3.12).
