@@ -5,6 +5,7 @@ Execute: streamlit run app_streamlit.py
 
 from __future__ import annotations
 
+import os
 import platform
 import subprocess
 import sys
@@ -23,6 +24,14 @@ from relatorio_nfse import (
 )
 
 BASE_DIR = Path(__file__).resolve().parent
+
+
+def _eh_servidor_cloud() -> bool:
+    """Railway (e similares): sem disco local nem diálogo de pasta; só upload no navegador."""
+    e = os.environ
+    if e.get("RAILWAY_ENVIRONMENT") or e.get("RAILWAY_PROJECT_ID"):
+        return True
+    return e.get("XMLLITE_CLOUD", "").strip().lower() in ("1", "true", "yes")
 
 
 def _ask_directory_macos() -> str | None:
@@ -165,38 +174,54 @@ def main() -> None:
     if "caminho_pasta_xml" not in st.session_state:
         st.session_state["caminho_pasta_xml"] = pasta_padrao
 
+    cloud = _eh_servidor_cloud()
+
     with st.sidebar:
         st.header("Fonte dos XMLs")
-        modo = st.radio(
-            "Como carregar?",
-            ("Pasta no computador", "Enviar arquivos"),
-            help="Use a pasta onde estão os .xml ou envie um ou vários arquivos de uma vez.",
-        )
-
-        if modo == "Pasta no computador":
-            if st.button(
-                "📁 Selecionar pasta…",
-                use_container_width=True,
-                help="Abre a janela do sistema para escolher a pasta dos XMLs.",
-            ):
-                sel = _ask_directory(st.session_state["caminho_pasta_xml"])
-                if sel:
-                    st.session_state["caminho_pasta_xml"] = sel
-
-            st.text_input(
-                "Caminho da pasta (ajuste manual se precisar)",
-                key="caminho_pasta_xml",
-                placeholder="/caminho/para/XMLs",
-                help="Atualizado automaticamente ao usar “Selecionar pasta”; você pode colar ou editar aqui.",
-            )
 
         uploaded = None
-        if modo == "Enviar arquivos":
+        modo = "Enviar arquivos"
+
+        if cloud:
+            st.info(
+                "**Instância na nuvem:** envie um ou vários arquivos `.xml` abaixo. "
+                "Não há acesso ao disco do servidor."
+            )
             uploaded = st.file_uploader(
                 "Arquivos XML",
                 type=["xml"],
                 accept_multiple_files=True,
             )
+        else:
+            modo = st.radio(
+                "Como carregar?",
+                ("Pasta no computador", "Enviar arquivos"),
+                help="Use a pasta onde estão os .xml ou envie um ou vários arquivos de uma vez.",
+            )
+
+            if modo == "Pasta no computador":
+                if st.button(
+                    "📁 Selecionar pasta…",
+                    use_container_width=True,
+                    help="Abre a janela do sistema para escolher a pasta dos XMLs.",
+                ):
+                    sel = _ask_directory(st.session_state["caminho_pasta_xml"])
+                    if sel:
+                        st.session_state["caminho_pasta_xml"] = sel
+
+                st.text_input(
+                    "Caminho da pasta (ajuste manual se precisar)",
+                    key="caminho_pasta_xml",
+                    placeholder="/caminho/para/XMLs",
+                    help="Atualizado automaticamente ao usar “Selecionar pasta”; você pode colar ou editar aqui.",
+                )
+
+            if modo == "Enviar arquivos":
+                uploaded = st.file_uploader(
+                    "Arquivos XML",
+                    type=["xml"],
+                    accept_multiple_files=True,
+                )
 
         processar = st.button("Processar", type="primary", use_container_width=True)
 
@@ -231,9 +256,14 @@ def main() -> None:
             linhas = linhas_novas
 
     if not linhas:
-        st.info(
-            "Escolha uma pasta com XMLs ou envie arquivos na barra lateral e clique em **Processar**."
-        )
+        if cloud:
+            st.info(
+                "Envie os arquivos XML na barra lateral e clique em **Processar**."
+            )
+        else:
+            st.info(
+                "Escolha uma pasta com XMLs ou envie arquivos na barra lateral e clique em **Processar**."
+            )
         return
 
     st.subheader("Filtros")

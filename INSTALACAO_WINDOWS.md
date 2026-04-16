@@ -193,3 +193,9 @@ git pull
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+---
+
+## Publicar na nuvem (Railway)
+
+Veja o arquivo **`RAILWAY.md`** na raiz do repositório: o que o servidor não usa, `Procfile` e checklist de deploy.
